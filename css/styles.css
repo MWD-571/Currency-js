@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Allerta';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/allerta-v16-latin-regular.woff2') format('woff2'),
+        url('../fonts/allerta-v16-latin-regular.woff') format('woff');
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Allerta';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: #FFFFFF;
+    color: #000000;
+    overflow-x: hidden;
+    background-image: url('../images/dollar__currency.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.hero__first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.hero__input {
+    padding-right: 15px;
+    padding-left: 10px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.hero__input-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero__label {
+    padding: 10px 40px 10px 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 15px;
+    background-color: skyblue;
+
+}
+
+.hero__main-select {
+    transform: translateX(-10px);
+    padding: 10px 120px 12px 10px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 15px;
+}
+
+.hero__btn {
+    background-color: lightgreen;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 250, 154, 0.3) 0px 0px 0px 3px;
+    transition: 40ms ease;
+    color: black;
+}
+
+.hero__btn:active {
+    background: none;
+    transition: 40ms ease;
+    color: lightgreen;
+    box-shadow: rgba(0, 250, 154, 0.3) 0px 0px 0px 3px;
+}
+
+.hero__second-btn {
+    background-color: rgb(238, 144, 144);
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(250, 0, 0, 0.3) 0px 0px 0px 3px;
+    transition: 40ms ease;
+    color: black;
+}
+
+.hero__second-btn:active {
+    background: none;
+    transition: 40ms ease;
+    color: rgb(238, 144, 144);
+    box-shadow: rgba(250, 0, 0, 0.3) 0px 0px 0px 3px;
+}
+
+.hero__input-result {
+    margin-top: 200px;
+    margin-left: 350PX;
+    padding: 10px 150px 12px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
